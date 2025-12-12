@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    margin: 40px;
+}
+
+.form-box {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 12px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    cursor: pointer;
+}
