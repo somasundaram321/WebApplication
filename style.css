@@ -26,9 +26,4 @@ button {
     padding: 10px;
     cursor: pointer;
 }
-.error-msg {
-    color: red;
-    font-size: 14px;
-    display: block;
-    margin-bottom: 10px;
-}
+

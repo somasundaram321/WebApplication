@@ -28,7 +28,7 @@ function saveForm() {
 
     let address = document.getElementById("address").value.trim();
 
-    console.log("Name:", name);
+    
     console.log("Email:", email);
     console.log("Phone:", phone);
     console.log("DOB:", dob);
