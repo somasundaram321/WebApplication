@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registraon Form</title>
+    <link rel="stylesheet" href="style.css">  <!-- Linking CSS -->
+</head>
+<body>
+
+<h2>User Registration Form1</h2>
+
+
+<div class="form-box">
+   <label>Full Name:</label>
+<input type="text" id="name">
+<span id="nameError" class="error-msg"></span>
+
+
+    <label>Email:</label>
+    <input type="email" id="email">
+
+   
+
+    <label>Phone:</label>
+    <input type="tel" id="phone">
+
+    <label>Date of Birth:</label>
+    <input type="date" id="dob">
+
+    <label>Gender:</label>
+    <select id="gender">
+        <option value="">Select</option>
+        <option>Male</option>
+        <option>Female</option>
+    </select>
+
+    <label>Skills:</label><br>
+    <input type="checkbox" value="Java"> Java
+    <input type="checkbox" value="Python"> Python
+    <input type="checkbox" value="HTML"> HTML<br><br>
+
+    <label>Address:</label>
+    <textarea id="address" rows="3"></textarea>
+
+    <div class="button-row">
+        <button onclick="saveForm()">Save</button>
+        <button onclick="clearForm()">Cancel</button>
+    </div>
+</div>
+
+<script src="script.js"></script> <!-- Linking JS -->
+</body>
+</html>
